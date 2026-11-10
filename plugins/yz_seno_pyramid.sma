@@ -77,8 +77,8 @@ public plugin_init()
     register_plugin("Seno Pyramid", "0.8", "Next21");
     g_cvar_size = register_cvar("seno_bale_size", "48");
     g_cvar_layers = register_cvar("seno_layers", "8");
-    g_cvar_hp = register_cvar("seno_bale_hp", "1");
-    g_cvar_needle_hp = register_cvar("seno_needle_hp", "1");
+    g_cvar_hp = register_cvar("seno_bale_hp", "1000");
+    g_cvar_needle_hp = register_cvar("seno_needle_hp", "100");
     g_cvar_interval = register_cvar("seno_layer_interval", "0.5");
 
     new current[32];
