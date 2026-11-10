@@ -1,0 +1,23 @@
+# build artifacts
+build/
+dist/
+*.bsp
+*.prt
+*.log.tmp
+
+# python cache
+__pycache__/
+*.pyc
+
+# inputs that are not distributed
+assets/photos/*
+!assets/photos/README.md
+assets/wheat_field/reference_giant.jpg
+assets/wheat_field/sky_panorama_imagegen.png
+assets/wheat_field/*.npy
+assets/wheat_field/textures/
+assets/wheat_field/skybox_preview/
+assets/wheat_field/*_contact.png
+
+# third-party tool
+models_src/tools/studiomdl.exe
